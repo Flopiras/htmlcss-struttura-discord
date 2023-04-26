@@ -125,7 +125,8 @@ li{
     border: 2px dashed black;
 }
 
-.nav_footer, .button_footer{
+/* footer */
+.nav_footer, .bottom_footer{
     background-color: var(--background_footer);
 }
 
@@ -152,4 +153,22 @@ li{
     border: 2px dashed black;
     min-width: 200px;
     min-height: 500px;
+}
+
+.container_footer_flex{
+    display: flex;
+    background-color: var(--nav_footer);
+    justify-content: space-between;
+    min-height: 50px;
+    align-items: center;
+}
+
+.logo_footer , .button_footer{
+    background-color: var(--button_footer);
+    border: 2px dashed black;
+    padding: 5px;
+}
+
+.bottom_footer{
+    padding: 10px 100px;
 }
