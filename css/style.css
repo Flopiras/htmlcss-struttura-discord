@@ -124,3 +124,32 @@ li{
     width: 1000px;
     border: 2px dashed black;
 }
+
+.nav_footer, .button_footer{
+    background-color: var(--background_footer);
+}
+
+.footer_flex{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid grey;
+}
+
+.xl_footer{
+    background-color: var(--xl_column_footer);
+    border: 2px dashed black;
+    min-width: 50px;
+    min-height: 500px;
+    flex-basis: 30%;
+}
+
+.sm_foote{
+    flex-basis: 70%;
+}
+
+.small_column_footer{
+    background-color: var(--sm_column_footer);
+    border: 2px dashed black;
+    min-width: 200px;
+    min-height: 500px;
+}
