@@ -6,8 +6,7 @@
 }
 
 .container{
-    margin: 50px auto;
-
+    margin: 0 auto;
 }
 
 /* root */
@@ -83,5 +82,27 @@ li{
     background-color: var(--jumbotrone);
     min-height: 300px;
     width: 1000px;
+    border: 2px dashed black;
+}
+
+/* main */
+.section_flex{
+    background-color: var(--backround_section);
+    display: flex;
+    min-height: 500px;
+    padding: 50px;
+    justify-content: center;
+}
+
+.large_column{
+    background-color: var(--large_column);
+    flex-basis: 70%;
+    max-width: 1000px;
+    border: 2px dashed black;
+}
+
+.small_column{
+    background-color: var(--small-column);
+    flex-basis: 30%;
     border: 2px dashed black;
 }
