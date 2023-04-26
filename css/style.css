@@ -1,0 +1,23 @@
+/* general */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* root */
+:root{
+    --background_banner : #add8e6;
+    --button_banner: #daa520;
+    --background_header: #00008b;
+    --jumbotrone: #ee82ee;
+    --large_column: #1e90ff;
+    --small-column: #ffc0cb;
+    --backround_section: #d3d3d3;
+    --large_div: #228b22;
+    --background_footer: #23272a;
+    --xl_column_footer: #f08080;
+    --sm_column_footer: #20b2aa;
+    --button_footer: #ffb6c1;
+    --nav_footer: #7fffd4;
+}
