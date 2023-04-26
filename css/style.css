@@ -6,7 +6,7 @@
 }
 
 .container{
-    margin:  auto;
+    margin: 50px auto;
 
 }
 
@@ -28,15 +28,17 @@
 }
 
 /* header */
-.flex{
+.flex_banner{
     display: flex;
     font-size: 1.5rem;
     justify-content: center;
     align-items: center;
 }
+header{
+    background-color: var(--background_banner);
+}
 
 .banner{
-    background-color: var(--background_banner);
     min-height: 100px;
 }
 
@@ -58,6 +60,8 @@
 li{
     list-style: none;
     background-color: var(--button_banner);
+    flex-basis: 50px;
+    
 }
 
 .login_banner{
@@ -65,4 +69,19 @@ li{
     background-color: var(--button_banner);
     min-height: 50px;
     flex-grow: 1;
+}
+
+.jumbotron_container_flex{
+    background-color: var(--background_header);
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jumbotron{
+    background-color: var(--jumbotrone);
+    min-height: 300px;
+    width: 1000px;
+    border: 2px dashed black;
 }
