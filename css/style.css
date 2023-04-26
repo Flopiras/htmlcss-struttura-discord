@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+.container{
+    margin:  auto;
+
+}
+
 /* root */
 :root{
     --background_banner : #add8e6;
@@ -20,4 +25,44 @@
     --sm_column_footer: #20b2aa;
     --button_footer: #ffb6c1;
     --nav_footer: #7fffd4;
+}
+
+/* header */
+.flex{
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner{
+    background-color: var(--background_banner);
+    min-height: 100px;
+}
+
+.logo_banner{
+    background-color: var(--button_banner);
+    border: 2px dashed black;
+    min-height: 50px;
+    flex-grow: 1;
+
+}
+
+.link_banner{
+    border: 2px dashed black;
+    background-color: var(--button_banner);
+    min-height: 50px;
+    flex-grow: 2;
+}
+
+li{
+    list-style: none;
+    background-color: var(--button_banner);
+}
+
+.login_banner{
+    border: 2px dashed black;
+    background-color: var(--button_banner);
+    min-height: 50px;
+    flex-grow: 1;
 }
