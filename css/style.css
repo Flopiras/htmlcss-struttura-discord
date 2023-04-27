@@ -36,6 +36,7 @@ header{
 .banner{
     min-height: 100px;
     margin: 0 auto;
+    max-width: 1200px;
 }
 
 .logo_banner{
